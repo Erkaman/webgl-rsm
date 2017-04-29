@@ -520,6 +520,8 @@ require('resl')({
             drawObjects()
           })
           directLightingPass()
+          
+          // the indirect lighting is added onto the direct lighting by simple blending. 
           indirectLightingPass()
         })
       })
