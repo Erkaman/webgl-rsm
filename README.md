@@ -2,7 +2,7 @@
 
 Demo of approximate real-time indirect lighting with Reflective Shadows Maps using [regl](https://github.com/mikolalysenko/regl).
 
-![](img.jpg)
+![](img.png)
 
 [Demo here](https://erkaman.github.io/webgl-rsm/webgl-rsm.html)
 
