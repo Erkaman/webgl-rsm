@@ -1,0 +1,42 @@
+{
+  "name": "webgl-rsm",
+  "version": "0.0.1",
+  "description": "Reflective Shadow Maps in WebGL",
+  "main": "main.js",
+  "dependencies": {
+    "angle-normals": "^1.0.0",
+    "canvas-fit": "^1.5.0",
+    "gl-mat4": "^1.1.4",
+    "regl": "^1.3.0",
+    "regl-camera": "^1.1.0",
+    "gl-quat": "^1.0.0",
+    "resl": "^1.0.3",
+    "seed-random": "^2.2.0"
+  },
+  "scripts": {
+    "start": "budo --live --open main.js",
+	"check": "standard main.js",
+	
+    "build": "browserify main.js -t babelify > out.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Erkaman/planar_proj_shadows.git"
+  },
+  "keywords": [
+    "webgl",
+    "regl"
+  ],
+  "author": "Eric Arnebäck",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Erkaman/webgl-rsm/issues"
+  },
+  "homepage": "https://github.com/Erkaman/webgl-rsm",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.22.0",
+    "babelify": "^7.3.0",
+    "budo": "^10.0.3",
+    "standard": "^10.0.2"
+  }
+}
